@@ -42,11 +42,11 @@ $ngx-fit-text-theme: mat.define-light-theme((
 // that you are using.
 @include mat.all-legacy-component-themes($ngx-fit-text-theme);
 
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-grid';
-@import '~bootstrap/scss/alert';
-@import '~bootstrap/scss/tables';
-@import '~highlight.js/styles/atom-one-light.css';
+@import 'node_modules/bootstrap/scss/bootstrap-reboot';
+@import 'node_modules/bootstrap/scss/bootstrap-grid';
+@import 'node_modules/bootstrap/scss/alert';
+@import 'node_modules/bootstrap/scss/tables';
+@import 'node_modules/highlight.js/styles/atom-one-light.css';
 
 .w-720px {
   width: 720px;

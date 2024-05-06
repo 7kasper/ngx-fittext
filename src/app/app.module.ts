@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
-import { NgxFitTextModule } from '@pikselin/ngx-fittext';
+import { NgxFitTextModule } from '../../projects/pikselin/ngx-fittext/src/lib/ngx-fittext.module';
 
 import { MaterialModule } from './shared';
 import { AppComponent } from './app.component';
