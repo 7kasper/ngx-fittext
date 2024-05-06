@@ -1,7 +1,7 @@
 {
   "name": "@pikselin/ngx-fittext",
   "author": "Gökhan Duman",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
     "ngx fit text"
   ],
   "peerDependencies": {
-    "@angular/common": "^12.1.0",
-    "@angular/core": "^12.1.0"
+    "@angular/common": "^17.3.7",
+    "@angular/core": "^17.3.7"
   },
   "dependencies": {
     "tslib": "^2.2.0"
