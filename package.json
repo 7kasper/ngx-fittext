@@ -22,8 +22,9 @@
     "@angular/router": "^17.3.7",
     "bootstrap": "^5.0.2",
     "highlight.js": "^11.0.1",
-    "ngx-highlightjs": "^4.1.4",
-    "rxjs": "~6.6.0",
+    "ngx-highlight-js": "^17.0.0",
+    "ngx-highlightjs": "^11.0.0-beta.1",
+    "rxjs": "^7.8.1",
     "tslib": "^2.2.0",
     "zone.js": "~0.14.5"
   },
