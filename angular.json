@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ngx-fit-text:build:production"
+              "buildTarget": "ngx-fit-text:build:production"
             },
             "development": {
-              "browserTarget": "ngx-fit-text:build:development"
+              "buildTarget": "ngx-fit-text:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngx-fit-text:build"
+            "buildTarget": "ngx-fit-text:build"
           }
         },
         "test": {
