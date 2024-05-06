@@ -37,7 +37,6 @@ import {
   providers: [
     provideHighlightOptions({
       coreLibraryLoader: () => import('highlight.js/lib/core'),
-      // lineNumbersLoader: () => import('ngx-highlightjs/line-numbers'), // Optional, add line numbers if needed
       languages: {
         typescript: () => import('highlight.js/lib/languages/typescript'),
         css: () => import('highlight.js/lib/languages/css'),
@@ -45,20 +44,6 @@ import {
       },
     })
   ],
-  // providers: [
-  //   {
-  //     provide: HIGHLIGHT_OPTIONS,
-  //     useValue: {
-  //       coreLibraryLoader: () => import('highlight.js/lib/core'),
-
-  //       languages: {
-  //         typescript: () => import('highlight.js/lib/languages/typescript'),
-  //         css: () => import('highlight.js/lib/languages/css'),
-  //         xml: () => import('highlight.js/lib/languages/xml'),
-  //       },
-  //     },
-  //   },
-  // ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
