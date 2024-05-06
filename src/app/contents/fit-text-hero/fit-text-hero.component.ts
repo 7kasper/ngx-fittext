@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import {FitTextComponent} from '@pikselin/ngx-fittext'
+import { FitTextComponent } from '@pikselin/ngx-fittext';
 @Component({
   selector: 'fit-text-hero',
   templateUrl: './fit-text-hero.component.html',

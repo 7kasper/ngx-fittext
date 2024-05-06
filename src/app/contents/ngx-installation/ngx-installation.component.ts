@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Inject } from '@angular/core';
+import { HighlightLoader } from 'ngx-highlightjs';
 
 @Component({
   selector: 'ngx-installation',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ngx-installation.component.scss']
 })
 export class NgxInstallationComponent implements OnInit {
+
   importModule = `
   import { NgxFitTextModule } from '@pikselin/ngx-fittext';
     @NgModule({

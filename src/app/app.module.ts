@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
-import { NgxFitTextModule } from '../../projects/pikselin/ngx-fittext/src/lib/ngx-fittext.module';
+// import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
+import { HighlightModule, provideHighlightOptions } from 'ngx-highlightjs';
+import { NgxFitTextModule } from '@pikselin/ngx-fittext';
 
 import { MaterialModule } from './shared';
 import { AppComponent } from './app.component';
@@ -34,19 +35,30 @@ import {
     NgxFitTextModule,
   ],
   providers: [
-    {
-      provide: HIGHLIGHT_OPTIONS,
-      useValue: {
-        coreLibraryLoader: () => import('highlight.js/lib/core'),
-
-        languages: {
-          typescript: () => import('highlight.js/lib/languages/typescript'),
-          css: () => import('highlight.js/lib/languages/css'),
-          xml: () => import('highlight.js/lib/languages/xml'),
-        },
+    provideHighlightOptions({
+      coreLibraryLoader: () => import('highlight.js/lib/core'),
+      // lineNumbersLoader: () => import('ngx-highlightjs/line-numbers'), // Optional, add line numbers if needed
+      languages: {
+        typescript: () => import('highlight.js/lib/languages/typescript'),
+        css: () => import('highlight.js/lib/languages/css'),
+        xml: () => import('highlight.js/lib/languages/xml')
       },
-    },
+    })
   ],
+  // providers: [
+  //   {
+  //     provide: HIGHLIGHT_OPTIONS,
+  //     useValue: {
+  //       coreLibraryLoader: () => import('highlight.js/lib/core'),
+
+  //       languages: {
+  //         typescript: () => import('highlight.js/lib/languages/typescript'),
+  //         css: () => import('highlight.js/lib/languages/css'),
+  //         xml: () => import('highlight.js/lib/languages/xml'),
+  //       },
+  //     },
+  //   },
+  // ],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
