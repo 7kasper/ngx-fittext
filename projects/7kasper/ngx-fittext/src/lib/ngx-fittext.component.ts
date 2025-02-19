@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-ngx-fittext',
+  standalone: false,
   template: `
     <p>
       ngx-fittext works!

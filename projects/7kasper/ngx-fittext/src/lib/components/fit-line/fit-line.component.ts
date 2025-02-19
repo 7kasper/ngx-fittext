@@ -16,6 +16,7 @@ import { FitLineInfo } from '../../models';
   selector: 'fit-line',
   templateUrl: './fit-line.component.html',
   styleUrls: ['./fit-line.component.css'],
+  standalone: false,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FitLineComponent implements AfterViewInit, OnDestroy {

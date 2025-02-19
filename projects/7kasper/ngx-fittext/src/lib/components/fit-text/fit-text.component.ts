@@ -15,6 +15,7 @@ import { fromEvent, Observable, Subscription } from 'rxjs';
   selector: 'fit-text[height]',
   templateUrl: './fit-text.component.html',
   styleUrls: ['./fit-text.component.css'],
+  standalone: false,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FitTextComponent implements AfterViewInit, OnDestroy {
