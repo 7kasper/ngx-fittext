@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { FitLineComponent, FitLineInfo } from '@pikselin/ngx-fittext';
+import { FitLineComponent, FitLineInfo } from '@7kasper/ngx-fittext';
 
 @Component({
   selector: 'fit-line-hero',
@@ -35,7 +35,7 @@ export class FitLineHeroComponent implements OnInit {
   `;
   fitLineTut2Ts = `
   import { Component, OnInit, ViewChild } from '@angular/core';
-  import { FitLineComponent } from '@pikselin/ngx-fittext';
+  import { FitLineComponent } from '@7kasper/ngx-fittext';
   @Component({
     selector: 'fit-line-hero',
     templateUrl: './fit-line-hero.component.html',

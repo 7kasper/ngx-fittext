@@ -1,6 +1,6 @@
 # Ngx-FitText
 
-**@pikselin/ngx-fittext** is an Angular library that allow you fit text in a box or a line.
+**@7kasper/ngx-fittext** is an Angular library that allow you fit text in a box or a line.
 
 
 
@@ -26,13 +26,13 @@
 ## Install Package
 
 ```shell
-npm i -S @pikselin/ngx-fittext
+npm i -S @7kasper/ngx-fittext
 ```
 
 ## Import Module
 
 ```ts
-import { NgxFitTextModule } from '@pikselin/ngx-fittext';
+import { NgxFitTextModule } from '@7kasper/ngx-fittext';
 
 @NgModule({
 imports: [
@@ -93,7 +93,7 @@ If you will change content dynamicly you need to refresh the fit-line component.
 
 ```ts
  import { Component, OnInit, ViewChild } from '@angular/core';
-  import { FitLineComponent } from '@pikselin/ngx-fittext';
+  import { FitLineComponent } from '@7kasper/ngx-fittext';
   @Component({
     selector: 'fit-line-hero',
     templateUrl: './fit-line-hero.component.html',
@@ -230,7 +230,7 @@ As like as fit-line component if you change content dynamicly you need to refres
 
 ```ts
 import { Component, OnInit, ViewChild } from "@angular/core";
-import { FitTextComponent } from "@pikselin/ngx-fittext";
+import { FitTextComponent } from "@7kasper/ngx-fittext";
 @Component({
   selector: "fit-text-hero",
   templateUrl: "./fit-text-hero.component.html",
@@ -279,11 +279,11 @@ export class FitTextHeroComponent implements OnInit {
 
 ## Contribute
 
-@pikselin/ngx-fittext library is nested in demo project. With this section you see changes easly.
+@7kasper/ngx-fittext library is nested in demo project. With this section you see changes easly.
 
 - build library in watch mode
 
 ```shell
-ng build @pikselin/ngx-fittext --watch
+ng build @7kasper/ngx-fittext --watch
 ```
 Then you can serve app by `ng serve` command in local at 4200 port by defaulty.

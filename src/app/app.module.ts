@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { HighlightModule, HIGHLIGHT_OPTIONS } from 'ngx-highlightjs';
 import { HighlightModule, provideHighlightOptions } from 'ngx-highlightjs';
-import { NgxFitTextModule } from '@pikselin/ngx-fittext';
+import { NgxFitTextModule } from '@7kasper/ngx-fittext';
 
 import { MaterialModule } from './shared';
 import { AppComponent } from './app.component';

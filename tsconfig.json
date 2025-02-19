@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "@pikselin/ngx-fittext": [
-        "dist/pikselin/ngx-fittext/pikselin-ngx-fittext",
-        "dist/pikselin/ngx-fittext"
+      "@7kasper/ngx-fittext": [
+        "dist/7kasper/ngx-fittext/7kasper-ngx-fittext",
+        "dist/7kasper/ngx-fittext"
       ]
     },
     "baseUrl": "./",

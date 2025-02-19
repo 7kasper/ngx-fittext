@@ -106,23 +106,23 @@
         }
       }
     },
-    "@pikselin/ngx-fittext": {
+    "@7kasper/ngx-fittext": {
       "projectType": "library",
-      "root": "projects/pikselin/ngx-fittext",
-      "sourceRoot": "projects/pikselin/ngx-fittext/src",
+      "root": "projects/7kasper/ngx-fittext",
+      "sourceRoot": "projects/7kasper/ngx-fittext/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/pikselin/ngx-fittext/ng-package.json"
+            "project": "projects/7kasper/ngx-fittext/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/pikselin/ngx-fittext/tsconfig.lib.prod.json"
+              "tsConfig": "projects/7kasper/ngx-fittext/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/pikselin/ngx-fittext/tsconfig.lib.json"
+              "tsConfig": "projects/7kasper/ngx-fittext/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -130,12 +130,15 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/pikselin/ngx-fittext/src/test.ts",
-            "tsConfig": "projects/pikselin/ngx-fittext/tsconfig.spec.json",
-            "karmaConfig": "projects/pikselin/ngx-fittext/karma.conf.js"
+            "main": "projects/7kasper/ngx-fittext/src/test.ts",
+            "tsConfig": "projects/7kasper/ngx-fittext/tsconfig.spec.json",
+            "karmaConfig": "projects/7kasper/ngx-fittext/karma.conf.js"
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { FitTextComponent } from '@pikselin/ngx-fittext';
+import { FitTextComponent } from '@7kasper/ngx-fittext';
 @Component({
   selector: 'fit-text-hero',
   templateUrl: './fit-text-hero.component.html',
@@ -72,7 +72,7 @@ export class FitTextHeroComponent implements OnInit {
   `
   fitBoxExampleTs = `
 import { Component, OnInit, ViewChild } from '@angular/core';
-import {FitTextComponent} from '@pikselin/ngx-fittext'
+import {FitTextComponent} from '@7kasper/ngx-fittext'
 @Component({
   selector: 'fit-text-hero',
   templateUrl: './fit-text-hero.component.html',

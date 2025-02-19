@@ -1,6 +1,6 @@
 # Ngx-FitText
 
-**@pikselin/ngx-fittext** is an Angular library that allow you fit text in a box or a line.
+**@7kasper/ngx-fittext** is an Angular library that allow you fit text in a box or a line.
 
 
 
@@ -25,13 +25,13 @@
 ## Install Package
 
 ```shell
-npm i -S @pikselin/ngx-fittext
+npm i -S @7kasper/ngx-fittext
 ```
 
 ## Import Module
 
 ```ts
-import { NgxFitTextModule } from '@pikselin/ngx-fittext';
+import { NgxFitTextModule } from '@7kasper/ngx-fittext';
 
 @NgModule({
 imports: [
@@ -92,7 +92,7 @@ If you will change content dynamicly you need to refresh the fit-line component.
 
 ```ts
  import { Component, OnInit, ViewChild } from '@angular/core';
-  import { FitLineComponent } from '@pikselin/ngx-fittext';
+  import { FitLineComponent } from '@7kasper/ngx-fittext';
   @Component({
     selector: 'fit-line-hero',
     templateUrl: './fit-line-hero.component.html',
@@ -229,7 +229,7 @@ As like as fit-line component if you change content dynamicly you need to refres
 
 ```ts
 import { Component, OnInit, ViewChild } from "@angular/core";
-import { FitTextComponent } from "@pikselin/ngx-fittext";
+import { FitTextComponent } from "@7kasper/ngx-fittext";
 @Component({
   selector: "fit-text-hero",
   templateUrl: "./fit-text-hero.component.html",

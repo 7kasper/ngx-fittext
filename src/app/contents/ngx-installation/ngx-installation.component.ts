@@ -9,7 +9,7 @@ import { HighlightLoader } from 'ngx-highlightjs';
 export class NgxInstallationComponent implements OnInit {
 
   importModule = `
-  import { NgxFitTextModule } from '@pikselin/ngx-fittext';
+  import { NgxFitTextModule } from '@7kasper/ngx-fittext';
     @NgModule({
     imports: [
     // other modules

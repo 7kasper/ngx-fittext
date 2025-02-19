@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../../coverage/pikselin/ngx-fittext'),
+      dir: require('path').join(__dirname, '../../../coverage/7kasper/ngx-fittext'),
       subdir: '.',
       reporters: [
         { type: 'html' },

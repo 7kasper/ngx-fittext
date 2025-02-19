@@ -1,11 +1,11 @@
 {
-  "name": "@pikselin/ngx-fittext",
-  "author": "Gökhan Duman",
+  "name": "@7kasper/ngx-fittext",
+  "author": "7kasper & Gökhan Duman",
   "version": "2.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pikselinweb/ngx-fittext.git"
+    "url": "https://github.com/7kasper/ngx-fittext.git"
   },
   "homepage": "https://pikselinweb.github.io/ngx-fittext/",
   "keywords": [
