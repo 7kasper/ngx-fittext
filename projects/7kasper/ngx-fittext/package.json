@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/7kasper/ngx-fittext.git"
   },
-  "homepage": "https://pikselinweb.github.io/ngx-fittext/",
+  "homepage": "https://7kasper.github.io/ngx-fittext/",
   "keywords": [
     "angular",
     "angular fit text",
@@ -18,8 +18,8 @@
     "ngx fit text"
   ],
   "peerDependencies": {
-    "@angular/common": "^17.3.7",
-    "@angular/core": "^17.3.7"
+    "@angular/common": "^18.2.13",
+    "@angular/core": "^18.2.13"
   },
   "dependencies": {
     "tslib": "^2.2.0"
