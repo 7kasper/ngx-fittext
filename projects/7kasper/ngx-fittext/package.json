@@ -1,7 +1,7 @@
 {
   "name": "@7kasper/ngx-fittext",
   "author": "7kasper & Gökhan Duman",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -18,8 +18,8 @@
     "ngx fit text"
   ],
   "peerDependencies": {
-    "@angular/common": "^18.2.13",
-    "@angular/core": "^18.2.13"
+    "@angular/common": "^19.1.6",
+    "@angular/core": "^19.1.6"
   },
   "dependencies": {
     "tslib": "^2.2.0"
