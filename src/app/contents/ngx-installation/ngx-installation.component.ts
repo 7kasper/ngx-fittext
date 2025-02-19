@@ -4,6 +4,7 @@ import { HighlightLoader } from 'ngx-highlightjs';
 @Component({
   selector: 'ngx-installation',
   templateUrl: './ngx-installation.component.html',
+  standalone: false,
   styleUrls: ['./ngx-installation.component.scss']
 })
 export class NgxInstallationComponent implements OnInit {

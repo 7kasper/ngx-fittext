@@ -4,6 +4,7 @@ import { FitLineComponent, FitLineInfo } from '@7kasper/ngx-fittext';
 @Component({
   selector: 'fit-line-hero',
   templateUrl: './fit-line-hero.component.html',
+  standalone: false,
   styleUrls: ['./fit-line-hero.component.scss'],
 })
 export class FitLineHeroComponent implements OnInit {

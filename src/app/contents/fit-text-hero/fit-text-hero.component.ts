@@ -3,6 +3,7 @@ import { FitTextComponent } from '@7kasper/ngx-fittext';
 @Component({
   selector: 'fit-text-hero',
   templateUrl: './fit-text-hero.component.html',
+  standalone: false,
   styleUrls: ['./fit-text-hero.component.scss'],
 })
 export class FitTextHeroComponent implements OnInit {
